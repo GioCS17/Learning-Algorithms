@@ -1,6 +1,3 @@
-//
-// Created by gante07 on 6/21/18.
-//
 
 #ifndef PROJECTPOO2_ELEMENT_H
 #define PROJECTPOO2_ELEMENT_H

@@ -8,18 +8,18 @@ Issues:
 \
 \
 Criterios para depuracion del data en dataset:
-- Conservar la data de forma que exista una distribucion simetrica de los registros de cada tipo de output([0-4]). \
+- Conservar la data de forma que exista una distribucion simetrica de los registros de cada tipo de output([0-4]). 
  
- Pasos para depuracion: \
+ Pasos para depuracion: 
 * Escrutinio de los datos
-* Analisis visual de los resultados\ 
-* Separar excedente de datos para mantener simetria,\
-* Evaluar nuevo conjunto de datos con pruebas de resultados. \
-* De obtener menores error finalziar la depuracion, caso constrario hacer un cambio entre los datos separados y el nuevo conjunto. \
+* Analisis visual de los resultados\
+* Separar excedente de datos para mantener simetria,
+* Evaluar nuevo conjunto de datos con pruebas de resultados. 
+* De obtener menores error finalziar la depuracion, caso constrario hacer un cambio entre los datos separados y el nuevo conjunto. 
   
 \
-Metodos usados para aprendizaje y prediccion: \
-- KNN Algorithm \
+Metodos usados para aprendizaje y prediccion: 
+- KNN Algorithm 
 La idea es realmente sencilla: el algoritmo clasifica cada dato nuevo en el grupo que corresponda, según tenga k vecinos más cerca
 de un grupo o de otro. Es decir, calcula la distancia del elemento nuevo a cada uno de los existentes, y ordena dichas distancias de 
 menor a mayor para ir seleccionando el grupo al que pertenecer. Este grupo será, por tanto, el de mayor frecuencia con menores distancias.

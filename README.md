@@ -2,14 +2,21 @@
 Dataset:
 http://archive.ics.uci.edu/ml/datasets/heart+disease
 \
-Issues: \ 
+Issues: 
 - La informacion obtenida del Dataset debe ser previamente Depurada. (Para entenderlo mejor, podemos analizarlos desde la perspectiva de las “5 Vs del Big Data": Volumen, Velocidad, Variedad, Veracidad y Valor).
 
 \
 \
 Criterios para depuracion del data en dataset:
-- Conservar la data de forma que exista una distribucion de registros del mismo tipo de forma simetrica.
--  
+- Conservar la data de forma que exista una distribucion simetrica de los registros de cada tipo de output([0-4]). \
+ 
+ Pasos para depuracion: \
+* Escrutinio de los datos
+* Analisis visual de los resultados\ 
+* Separar excedente de datos para mantener simetria,\
+* Evaluar nuevo conjunto de datos con pruebas de resultados. \
+* De obtener menores error finalziar la depuracion, caso constrario hacer un cambio entre los datos separados y el nuevo conjunto. \
+  
 \
 Metodos usados para aprendizaje y prediccion: \
 - KNN Algorithm \

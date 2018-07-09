@@ -38,4 +38,4 @@ El perceptrón es un algoritmo bio inspirado desarrollado por Frank Rosenblatt y
 \
  Referencias:\
  https://www.youtube.com/watch?v=8dXYLwPiqME   \
- http://www.lcc.uma.es/~munozp/documentos/modelos_computacionales/temas/Tema4MC-05.pdf  \
+ http://www.lcc.uma.es/~munozp/documentos/modelos_computacionales/temas/Tema4MC-05.pdf  

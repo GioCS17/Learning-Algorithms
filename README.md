@@ -18,10 +18,10 @@ menor a mayor para ir seleccionando el grupo al que pertenecer. Este grupo será
 El K-NN es un algoritmo de aprendizaje supervisado, es decir, que a partir de un juego de datos inicial su objetivo será el de clasificar 
 correctamente todas las instancias nuevas. El juego de datos típico de este tipo de algoritmos está formado por varios atributos descriptivos 
 y un solo atributo objetivo (también llamado clase).
-(Sergio Ruiz. (2018). El algoritmo K-NN y su importancia en el modelado de datos. 2018, de ANALITICAWEB Sitio web: https://www.analiticaweb.es/algoritmo-knn-modelado-datos)
-  Referencias:
-  https://www.youtube.com/watch?v=UqYde-LULfs
-  https://medium.com/@adi.bronshtein/a-quick-introduction-to-k-nearest-neighbors-algorithm-62214cea29c7
+(Sergio Ruiz. (2018). El algoritmo K-NN y su importancia en el modelado de datos. 2018, de ANALITICAWEB Sitio web: https://www.analiticaweb.es/algoritmo-knn-modelado-datos) \
+  Referencias: \
+  https://www.youtube.com/watch?v=UqYde-LULfs\
+  https://medium.com/@adi.bronshtein/a-quick-introduction-to-k-nearest-neighbors-algorithm-62214cea29c7\
 
 - Perceptron Algorithm
 El perceptrón es un algoritmo bio inspirado desarrollado por Frank Rosenblatt y es capás de clasificar elementos que sean linealmente separables, generando un hiperplano que separe estos en n  dimensiones. Esto quiere decir, que si dibujamos datos que previamente separamos en clases, digamos una clase C1 y C2 donde C1 son buenos clientes y C2 son malos clientes, el algoritmo únicamente podrá clasificarlos si estos pueden ser separados por un plano. Para ver más sobre el concepto de separabilidad lineal recomiendo leer este artículo: Clasificación Lineal contra No lineal con Python. ¿Por qué un plano? Si cada cliente tuviera tres características, digamos calificación del buró de crédito, edad y compras pasadas en nuestra tienda, entonces los clientes tendrían tres dimensiones. Se pueden agregar n dimensiones, y el si se puede dibujar un hiperplano que atraviese estas n dimensiones, entonces el perceptrón será capáz de clasificar los datos.

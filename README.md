@@ -17,7 +17,7 @@ Criterios para depuracion del data en dataset:
 * Evaluar nuevo conjunto de datos con pruebas de resultados. 
 * De obtener menores error finalziar la depuracion, caso constrario hacer un cambio entre los datos separados y el nuevo conjunto. 
   
-\
+
 Metodos usados para aprendizaje y prediccion: 
 - KNN Algorithm 
 La idea es realmente sencilla: el algoritmo clasifica cada dato nuevo en el grupo que corresponda, según tenga k vecinos más cerca

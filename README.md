@@ -1,6 +1,6 @@
 # Learning-Algorithms
 Presentacion:\
-shorturl.at/aEIY1 \
+https://shorturl.at/aEIY1 \
 Dataset:\
 http://archive.ics.uci.edu/ml/datasets/heart+disease
 \

@@ -4,13 +4,14 @@
 
 #include <iostream>
 #include <vector>
-#include "Element.h"
+#include "../Element.h"
 #include <string>
 #include <fstream>
 #include <cmath>
+#include <algorithm>
 #include <set>
 
-class knnalgorithm {
+class KnnAlgorithm {
 
 private:
     std::vector<Element> listElements;
@@ -23,10 +24,10 @@ private:
     char separator;
 
 public:
-    knnalgorithm(int, const char *,char);
-    ~knnalgorithm();
+    KnnAlgorithm(int, const char *,char);
+    ~KnnAlgorithm();
     void printListElements();
-    std::string getclassifierElement();
+    void getclassifierElement();
     void insertAttemptElement(std::string);
 };
 

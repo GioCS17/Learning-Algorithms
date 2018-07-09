@@ -3,7 +3,9 @@ Dataset:
 http://archive.ics.uci.edu/ml/datasets/heart+disease
 
 Issues:
-- La informacion obtenida del Dataset debe ser previamente Depurada
+- La informacion obtenida del Dataset debe ser previamente Depurada. (Para entenderlo mejor, podemos analizarlos desde la perspectiva de las “5 Vs del Big Data": Volumen, Velocidad, Variedad, Veracidad y Valor).
+- 
+
 
 Criterios para depuracion del data en dataset:
 - Conservar la data de forma que exista una distribucion de registros del mismo tipo de forma simetrica.
